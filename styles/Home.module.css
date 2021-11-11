@@ -1,11 +1,11 @@
 .container {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .main {
@@ -69,6 +69,26 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
+.machineMeta {
+  background: #fafafa;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.pageContainer {
+  border-radius: 1rem;
+  border: 1px solid purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  width: 48%;
+}
+
 .grid {
   display: flex;
   align-items: center;
@@ -87,13 +107,6 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
 }
 
 .card h2 {
